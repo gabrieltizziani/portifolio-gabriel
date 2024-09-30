@@ -10,7 +10,7 @@
 body {
     background-color: black;
     color: white;
-    overflow: hidden;
+    
 }
 
 .apresentacao-inicial{
@@ -129,5 +129,24 @@ span {
 /* Classe que mostra o menu */
 .menu-open {
     display: block; /* Exibe o menu */
+}
+
+.seta-baixo {
+    text-align: center; /* Centraliza a seta */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+.seta-baixo i {
+    animation: bounce 1s infinite; /* Aplica a animação "bounce" */
+}
+
+/* Animação de "pulsar" para cima e para baixo */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    50% {
+        transform: translateY(10px); /* Movimenta para baixo */
+    }
 }
 

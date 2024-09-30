@@ -1,0 +1,28 @@
+#sobre{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.title-sobre{
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.p-sobre{
+    font-size: 20px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.s-unif{
+    color: orange;
+}
