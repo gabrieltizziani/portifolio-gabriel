@@ -3,35 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Gabriel Tizziani</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Gabriel Tizziani | Dev</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/app.js" defer></script>
     <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="/assets/particles.js" defer></script>
 
 </head>
 <body>
+    <div id="particles-js"></div>
     <header>
-        <div>
-            ---
+        <div class="logo">
+            <p class="p-logo">Gabriel Tizziani <span> | Dev. </span></p>
         </div>
+        <div class="icon-menu">
+            <i class="fa fa-bars" style="font-size:36px; color: white;"  id="menu-icon"></i>
+        </div>
+        <nav id="menu" class="menu-hidden">
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        
     </header>
     
-    <main class="apresentacao">
-        <section id="apresentacao-inicial">
-            <div class="inicio">
-                <h1>Gabriel Tizziani</h1>
-                <p class="subtitulo">Desenvolvedor <span class="animacao"></span></p>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Sobre</h2>
-            </div>
-        </section>
-        
+    <main class="apresentacao-inicial">
+        <div class="inicio">
+            <h1>Gabriel Tizziani</h1>
+            <p class="subtitulo">Desenvolvedor <span class="animacao"></span></p>
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="icons-redes">
+            <a href="https://www.linkedin.com/in/gabriel-de-melo-tizziani-72966a266/">
+                <i class="fa fa-linkedin-square" style="font-size:38px; color: white"></i>
+            </a>
+            <a href="https://github.com/gabrieltizziani">
+                <i class="fa fa-github-square" style="font-size:38px; color: white;"></i>
+            </a>
+            <a href="https://www.instagram.com/gabriel_tizziani/">
+                <i class="fa fa-instagram" style="font-size:38px; color: white"></i>
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>
