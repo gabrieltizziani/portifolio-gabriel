@@ -1,28 +1,62 @@
-#sobre{
-    margin: 5%;
+body{
+    font-family: "Inter", sans-serif;
+}
+#sobre {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 60%;
-    margin-left: 20%;
+    align-items: center; 
+    padding: 0 10%;
+    width: 90%;
+}
+.t-sobre {
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+.p-sobre {
+    font-size: 18px;
+}
+
+.foto {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
 }
 
 .title-sobre{
     display: flex;
     justify-content: center;
     font-family: "Inter", sans-serif;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bolder;
     margin-top: 5%;
 }
 
-.p-sobre{
-    font-size: 20px;
+.text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-top: 5%;
 }
 
-.foto{
-    width: 100%;
+.s-sobre{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    animation: move-rtl 6000ms linear infinite;
+    padding: 0 1rem;
+    font-weight: bolder;
 }
 
-.s-unif{
-    color: orange;
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
