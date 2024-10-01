@@ -22,7 +22,7 @@ body {
 
 }
 
-h1 {
+.t-inicial {
     font-size: 100px;
     font-weight: bold;
 }
@@ -149,4 +149,14 @@ span {
         transform: translateY(10px); /* Movimenta para baixo */
     }
 }
+
+section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+section.active {
+    opacity: 1;
+}
+
 

@@ -1,0 +1,24 @@
+#habilidades{
+    display: flex;
+    justify-content: space-between;
+}
+.div-hab{
+    margin-left: 5%;
+    width: 50%;
+    font-size: 20px;
+}
+
+.t-habilidades{
+    color: purple;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.h3-hab {
+    margin-top: 20px; /* Espaço acima do subtítulo */
+    margin-bottom: 10px; /* Espaço abaixo do subtítulo */
+}
+
+.p-habilidades {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
