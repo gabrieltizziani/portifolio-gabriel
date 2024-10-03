@@ -6,15 +6,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     }).type(' Web', {delay: 900}).delete(3).type(' Fullstack', {delay: 900}).go()
 })
 
-//MENU
-const menuIcon = document.getElementById('menu-icon');
-const menu = document.getElementById('menu');
-
-// Adiciona um evento de clique no ícone do menu
-menuIcon.addEventListener('click', () => {
-    // Alterna a classe "menu-open" para abrir e fechar o menu
-    menu.classList.toggle('menu-open');
-});
 
 //ANIMAÇAO SCROLL
 document.addEventListener("DOMContentLoaded", function() {

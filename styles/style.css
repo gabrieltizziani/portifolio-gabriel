@@ -10,14 +10,14 @@
 body {
     background-color: black;
     color: white;
-    
+    padding-top: 80px;
 }
 
 .apresentacao-inicial{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: 75vh;
     font-family: "Inter", sans-serif;
 
 }
@@ -58,6 +58,26 @@ header{
     margin-top: 0;
     background-color: black;
     z-index: 1000;
+    padding: 0 30px;
+}
+nav .nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-list li {
+    margin-right: 20px;
+}
+
+nav .nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+}
+
+nav .nav-list li a:hover {
+    color: #00bfff;
 }
 
 .icon-menu{
@@ -97,39 +117,9 @@ span {
     z-index: -1; /* Mantém as partículas atrás do conteúdo */
 }
 
-/* Esconde o menu inicialmente */
-.menu-hidden {
-    display: none; /* Oculta o menu */
-}
 
-#menu {
-    position: absolute;
-    top: 60px;
-    right: 15px;
-    background-color: black;
-    padding: 10px;
-    border-radius: 5px;
-}
 
-#menu ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-#menu ul li {
-    margin: 10px 0;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-/* Classe que mostra o menu */
-.menu-open {
-    display: block; /* Exibe o menu */
-}
 
 .seta-baixo {
     text-align: center; /* Centraliza a seta */
@@ -151,8 +141,8 @@ span {
 }
 
 section {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo levemente transparente */
+    padding: 50px 0;
 }
 
 section.active {

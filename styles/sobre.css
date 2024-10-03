@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center; 
     width: 100%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .t-sobre {
@@ -50,7 +50,7 @@ body {
     width: 100vw; /* Largura total da viewport */
     position: relative;
     overflow: hidden;
-    margin-top: -100px;
+    
     height: 100px; /* Ajuste a altura do text-wrapper conforme necessário */
     
 }
