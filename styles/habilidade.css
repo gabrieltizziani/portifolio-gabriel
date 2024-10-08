@@ -1,21 +1,24 @@
-body{
+body {
     font-family: "Inter", sans-serif;
 }
-#habilidades{
+
+#habilidades {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens verticalmente ao topo */
+    padding: 20px;
 }
-.div-hab{
+
+.div-hab {
     margin-left: 5%;
-    width: 50%;
+    width: 50%; /* Define a largura da coluna de habilidades */
     font-size: 20px;
 }
 
-.t-habilidades{
+.t-habilidades {
     color: purple;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
-    margin-top: 5%;
 }
 
 .h3-hab {
@@ -24,12 +27,59 @@ body{
 }
 
 .p-habilidades {
-    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo dos parágrafos */
 }
+
 
 .minhas-soft {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 26px;
+}
+
+.minhas-soft i {
+    padding: 5px;
+    margin: 5px 0;
+    width: fit-content;
+}
+
+
+.div-languages {
+    margin-top: 20px; 
+    align-self: flex-start; 
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icon-container i {
+    margin: 10px;
+    color: #ffffff; 
+    transition: transform 0.3s ease;
+}
+
+.icon-container i:hover {
+    transform: scale(1.2); /* Aumenta o tamanho dos ícones ao passar o mouse */
+}
+
+/* Ajustes de responsividade */
+@media (max-width: 768px) {
+    #habilidades {
+        flex-direction: column; /* Alinha verticalmente em telas menores */
+        align-items: flex-start;
+    }
     
+    .div-hab {
+        width: 100%; /* Coluna de habilidades ocupa 100% da largura em dispositivos móveis */
+        margin-left: 0;
+    }
+    
+    .icon-container {
+        justify-content: center; /* Centraliza os ícones em telas menores */
+    }
 }
