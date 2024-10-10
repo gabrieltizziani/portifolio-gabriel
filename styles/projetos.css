@@ -1,5 +1,9 @@
 #projetos{
-    margin-top: 10%;
+    padding: 25px;
+    height: 100vh;
+    padding-top: 100px; /* Ajuste esse valor conforme necessário */
+    margin-top: 20px;; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
+    width: 100%;
 }
 
 .t-projeto {
@@ -20,7 +24,7 @@
     background-color: #1a1a1a;
     border-radius: 15px;
     padding: 20px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -47,7 +51,7 @@
 }
 
 .img-projeto {
-    width: 90%;
+    width: 60%;
     border-radius: 10px;
 }
 
@@ -57,11 +61,6 @@
     gap: 5px;
     margin: 10px 0;
     
-}
-
-.icons img {
-    width: 30px;
-    height: 30px;
 }
 
 .btn-projetos {
