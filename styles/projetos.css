@@ -1,13 +1,15 @@
 #projetos{
     padding: 25px;
     height: 100vh;
-    padding-top: 60px; /* Ajuste esse valor conforme necessário */
+    padding-top: 100px; /* Ajuste esse valor conforme necessário */
+    margin-top: 20px;; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
     width: 100%;
 }
 
 .t-projeto {
     text-align: center;
     font-size: 40px;
+    margin-top: 40px;
     color: #fff;
 }
 
