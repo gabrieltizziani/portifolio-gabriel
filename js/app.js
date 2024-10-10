@@ -6,22 +6,19 @@ document.addEventListener('DOMContentLoaded', () =>{
     }).type(' Web', {delay: 900}).delete(3).type(' Fullstack', {delay: 900}).go()
 })
 
-
-//ANIMAÇAO SCROLL
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
+
     const options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.1 // Quando 10% da seção estiver visível, a animação será ativada
+        threshold: 0.3 // Define quando o efeito deve ser ativado (30% da seção visível)
     };
 
-    const observer = new IntersectionObserver((entries) => {
+    const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add("active");
+                entry.target.classList.add("in-view");
             } else {
-                entry.target.classList.remove("active");
+                entry.target.classList.remove("in-view");
             }
         });
     }, options);
@@ -30,4 +27,3 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(section);
     });
 });
-

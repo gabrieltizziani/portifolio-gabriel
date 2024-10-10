@@ -3,13 +3,11 @@ body {
 }
 
 #habilidades {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Alinha os itens verticalmente ao topo */
     padding: 25px;
     height: 100vh;
     padding-top: 100px; /* Ajuste esse valor conforme necessário */
-    margin-top: -100px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
+    margin-top: 40px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
+    width: 100%;
 }
 
 .div-hab {
@@ -20,7 +18,7 @@ body {
 
 .t-habilidades {
     color: purple;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -37,18 +35,17 @@ body {
 .minhas-soft {
     display: flex;
     flex-direction: column;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .minhas-soft i {
-    padding: 5px;
+    padding: 1px;
     margin: 5px 0;
     width: fit-content;
 }
 
 
-.div-languages {
-    margin-top: 20px; 
+.div-languages { 
     align-self: flex-start; 
 }
 
@@ -57,7 +54,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    
 }
 
 .icon-container i {
@@ -86,4 +83,3 @@ body {
         justify-content: center; /* Centraliza os ícones em telas menores */
     }
 }
-

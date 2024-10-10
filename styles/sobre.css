@@ -12,11 +12,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
+    padding: 100px 10% 0; /* Ajuste o padding-top conforme necessário */
     width: 100%;
-    height: 100vh;
-    padding-top: 100px; /* Ajuste esse valor conforme necessário */
-    margin-top: -100px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
+    height: auto; /* Ajuste a altura para ser automática */
 }
 
 /* Ajuste para o wrapper do conteúdo */
@@ -25,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center; 
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .t-sobre {
@@ -52,7 +50,6 @@ body {
     width: 100vw; /* Largura total da viewport */
     position: relative;
     overflow: hidden;
-    
     height: 100px; /* Ajuste a altura do text-wrapper conforme necessário */
     
 }
