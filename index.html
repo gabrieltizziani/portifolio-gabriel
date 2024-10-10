@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/sobre.css">
     <link rel="stylesheet" href="styles/habilidade.css">
     <link rel="stylesheet" href="styles/projetos.css">
+    <link rel="stylesheet" href="styles/contato.css">
     <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -162,6 +163,33 @@
 
             </div>
             
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contato-container">
+            <div>
+                <h1 class="t-contato">Fale comigo!</h1>
+            </div>
+            <div>
+                <p class="p-contato">Gostou dos projetos e quer entrar em contato?</p>
+            </div>
+            <div>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome:</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                    <label>Email:</label>
+                    <input type="text" name="email" placeholder="Digite seu email" autocomplete="off">
+                    <label>Mensagem:</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="6b16d8b9-cdbd-4682-b67d-c071d764c976"/>
+                    <input type="hidden" name="redirectTo" value="https://portifolio-gabrieltizziani.netlify.app/enviado">
+                </form>
+                
+            </div>
+
         </div>
     </section>
 

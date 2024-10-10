@@ -15,8 +15,7 @@
 
 .div-projetos {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
@@ -24,11 +23,12 @@
     background-color: #1a1a1a;
     border-radius: 15px;
     padding: 20px;
-    width: 400px;
+    width: 300px;
     text-align: center;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .st-projetos {
@@ -36,13 +36,6 @@
     margin: 15px 0;
 }
 
-.categoria {
-    color: #2980b9;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 10px;
-    display: block;
-}
 
 .p-projetos {
     font-size: 14px;
@@ -69,7 +62,7 @@
     color: white;
     padding: 10px 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
