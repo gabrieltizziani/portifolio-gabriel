@@ -7,6 +7,7 @@ body {
     justify-content: space-between;
     align-items: flex-start; /* Alinha os itens verticalmente ao topo */
     padding: 25px;
+    height: 100vh;
     padding-top: 100px; /* Ajuste esse valor conforme necessário */
     margin-top: -100px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
 }
