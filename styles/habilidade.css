@@ -5,7 +5,7 @@ body {
 #habilidades {
     padding: 25px;
     height: 100vh;
-    padding-top: 100px; /* Ajuste esse valor conforme necessário */
+    padding-top: 80px; /* Ajuste esse valor conforme necessário */
     margin-top: 40px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
     width: 100%;
 }

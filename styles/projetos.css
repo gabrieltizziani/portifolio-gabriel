@@ -4,9 +4,9 @@ body{
 }
 #projetos{
     padding: 25px;
-    height: 100vh;
+    height: auto;
      /* Ajuste esse valor conforme necessário */
-    margin-top: 40px;; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
+     /* Este valor deve ser igual ao padding-top para corrigir o espaço */
     width: 100%;
 }
 
