@@ -1,12 +1,12 @@
 #contato{
-  padding: 25px;
-  height: auto;
-  
-  width: 100%;
+    padding: 25px;
+    height: 90vh;
+    margin-top: 25px; 
+    width: 100%;
 }
 
 .t-contato{
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .contato-container{
