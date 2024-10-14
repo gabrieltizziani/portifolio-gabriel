@@ -3,11 +3,10 @@ body {
 }
 
 #habilidades {
-    padding: 25px;
-    height: 100vh;
-    padding-top: 100px; /* Ajuste esse valor conforme necessário */
-    margin-top: 40px; /* Este valor deve ser igual ao padding-top para corrigir o espaço */
-    width: 100%;
+    padding: 15px;
+    height: auto; /* Ajuste a altura automaticamente de acordo com o conteúdo */
+    margin-top: 20px;
+    padding-top: 80px;
 }
 
 .div-hab {
